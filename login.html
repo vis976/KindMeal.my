@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="https://www.kindmeal.my/favicon.png">
+    <!--  -->
+<script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous" ></script>
+    <link rel="stylesheet" href="./component/navbar.css">
+    <link rel="stylesheet" href="./component/footer.css">
+<style>
+
+#email{
+    width: 300px;
+    height: 28px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0.5px solid rgb(158, 148, 148);
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 10px;
+}
+#pass{
+    width: 300px;
+    height: 28px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0.5px solid rgb(158, 148, 148);
+    border-radius: 3px;
+    padding: 4px;
+    /* margin-top: 10px; */
+}
+#userLoginButton{
+    margin-top: 30px;
+    width: 220px;
+    text-align: center;
+    height: 43px;
+    padding: 5px;
+    background-color: rgba(3, 163, 3, 0.767);
+    font-size: 20px;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    font-family: sans-serif;
+}
+
+</style>
+</head>
+<body>
+     <!-- first navbar heare -->
+
+  <header id="navbar"></header>
+  <!-- ---------Second Navbar---------- -->
+  <header id="navbar2"></header>
+  <!-- ------second navbar end--------- -->
+
+<div style="display: flex;flex-direction: column;align-items: center;width: 30%; margin: auto;">
+    <div>
+        <img style="width: 400px;" src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="">
+    </div>
+    <div style="display: flex;flex-direction: column;gap: 20px;">
+        <p style="text-align:center;font-size: 25px;color: rgb(104, 99, 99);font-family: sans-serif;margin-top: 15px;">Member Login</p>
+        <input type="email" placeholder="Your Email" id="email" required>
+        <input type="password" placeholder="Your Password" id="pass" required>
+    </div>
+    <button id="userLoginButton">Login</button>
+</div>
+
+
+<!-- ----------------footer------------------ -->
+
+<div id="footer"></div>
+<div id="bigfooter"></div>
+</body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
+<script src="./scripts/login.js" type="module"></script>
+
+
+
